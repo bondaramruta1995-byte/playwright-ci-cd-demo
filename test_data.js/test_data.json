@@ -1,0 +1,200 @@
+{
+"loginTests": [
+{
+"testCaseId": "TC01",
+"scenario": "Valid Login",
+"username": "standard_user",
+"password": "secret_sauce",
+"expectedResult": "success"
+},
+{
+"testCaseId": "TC02",
+"scenario": "Valid Login",
+"username": "problem_user",
+"password": "secret_sauce",
+"expectedResult": "success"
+},
+{
+"testCaseId": "TC03",
+"scenario": "Valid Login",
+"username": "performance_glitch_user",
+"password": "secret_sauce",
+"expectedResult": "success"
+},
+{
+"testCaseId": "TC04",
+"scenario": "Valid Login",
+"username": "visual_user",
+"password": "secret_sauce",
+"expectedResult": "success"
+},
+{
+"testCaseId": "TC05",
+"scenario": "Invalid Password",
+"username": "standard_user",
+"password": "wrong123",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC06",
+"scenario": "Invalid Password",
+"username": "standard_user",
+"password": "123456",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC07",
+"scenario": "Invalid Password",
+"username": "standard_user",
+"password": "password123",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC08",
+"scenario": "Invalid Password",
+"username": "standard_user",
+"password": "admin",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC09",
+"scenario": "Invalid Username",
+"username": "invalid_user",
+"password": "secret_sauce",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC10",
+"scenario": "Invalid Username",
+"username": "admin",
+"password": "secret_sauce",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC11",
+"scenario": "Invalid Username",
+"username": "test_user",
+"password": "secret_sauce",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC12",
+"scenario": "Invalid Username",
+"username": "guest",
+"password": "secret_sauce",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC13",
+"scenario": "Empty Username",
+"username": "",
+"password": "secret_sauce",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC14",
+"scenario": "Empty Username",
+"username": "",
+"password": "wrong123",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC15",
+"scenario": "Empty Username",
+"username": "",
+"password": "123456",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC16",
+"scenario": "Empty Username",
+"username": "",
+"password": "",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC17",
+"scenario": "Empty Password",
+"username": "standard_user",
+"password": "",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC18",
+"scenario": "Empty Password",
+"username": "problem_user",
+"password": "",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC19",
+"scenario": "Empty Password",
+"username": "locked_out_user",
+"password": "",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC20",
+"scenario": "Empty Password",
+"username": "invalid_user",
+"password": "",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC21",
+"scenario": "Both Fields Empty",
+"username": "",
+"password": "",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC22",
+"scenario": "Both Fields Empty",
+"username": "",
+"password": "",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC23",
+"scenario": "Both Fields Empty",
+"username": "",
+"password": "",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC24",
+"scenario": "Both Fields Empty",
+"username": "",
+"password": "",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC25",
+"scenario": "Locked User",
+"username": "locked_out_user",
+"password": "secret_sauce",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC26",
+"scenario": "Locked User",
+"username": "locked_out_user",
+"password": "wrong123",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC27",
+"scenario": "Locked User",
+"username": "locked_out_user",
+"password": "123456",
+"expectedResult": "failure"
+},
+{
+"testCaseId": "TC28",
+"scenario": "Locked User",
+"username": "locked_out_user",
+"password": "",
+"expectedResult": "failure"
+}
+]
+}

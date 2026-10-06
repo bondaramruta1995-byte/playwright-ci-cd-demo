@@ -1,0 +1,2 @@
+01/10/26
+1. Functions --normal, arrow, closer , high order functions-set time out functions
